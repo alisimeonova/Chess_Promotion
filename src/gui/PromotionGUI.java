@@ -18,7 +18,7 @@ public class PromotionGUI
 
 		JFrame window = new JFrame();
 		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		window.setBounds(0, 0, 350, 350);
+		window.setBounds(0, 0, 350, 250);
 		window.setLayout(null);
 		window.setVisible(true);
 		
