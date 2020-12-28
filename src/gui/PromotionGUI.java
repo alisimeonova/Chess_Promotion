@@ -28,35 +28,35 @@ public class PromotionGUI
 		label.setText("Choose a figure to switch with your pawn");
 		window.add(label);
 		
-		JRadioButton queen = new JRadioButton();
-		queen.setVisible(true);
-		queen.setBounds(10, LABEL_Y + LABEL_HEIGHT + 10, RADIOBUTTON_WIDTH, RADIOBUTTON_HEIGHT);
-		queen.setText("Queen");
-		window.add(queen);
+		JRadioButton radioBtnQueen = new JRadioButton();
+		radioBtnQueen.setVisible(true);
+		radioBtnQueen.setBounds(10, LABEL_Y + LABEL_HEIGHT + 10, RADIOBUTTON_WIDTH, RADIOBUTTON_HEIGHT);
+		radioBtnQueen.setText("Queen");
+		window.add(radioBtnQueen);
 		
-		JRadioButton rook = new JRadioButton();
-		rook.setVisible(true);
-		rook.setBounds(10 + RADIOBUTTON_WIDTH + 10, LABEL_Y + LABEL_HEIGHT + 10, RADIOBUTTON_WIDTH, RADIOBUTTON_HEIGHT);
-		rook.setText("Rook");
-		window.add(rook);
+		JRadioButton radioBtnRook = new JRadioButton();
+		radioBtnRook.setVisible(true);
+		radioBtnRook.setBounds(10 + RADIOBUTTON_WIDTH + 10, LABEL_Y + LABEL_HEIGHT + 10, RADIOBUTTON_WIDTH, RADIOBUTTON_HEIGHT);
+		radioBtnRook.setText("Rook");
+		window.add(radioBtnRook);
 		
-		JRadioButton knight = new JRadioButton();
-		knight.setVisible(true);
-		knight.setBounds(10 + RADIOBUTTON_WIDTH*2 + 20, LABEL_Y + LABEL_HEIGHT + 10, RADIOBUTTON_WIDTH, RADIOBUTTON_HEIGHT);
-		knight.setText("Knight");
-		window.add(knight);
+		JRadioButton radioBtnKnight = new JRadioButton();
+		radioBtnKnight.setVisible(true);
+		radioBtnKnight.setBounds(10 + RADIOBUTTON_WIDTH*2 + 20, LABEL_Y + LABEL_HEIGHT + 10, RADIOBUTTON_WIDTH, RADIOBUTTON_HEIGHT);
+		radioBtnKnight.setText("Knight");
+		window.add(radioBtnKnight);
 		
-		JRadioButton bishop = new JRadioButton();
-		bishop.setVisible(true);
-		bishop.setBounds(10 + RADIOBUTTON_WIDTH*3 + 30, LABEL_Y + LABEL_HEIGHT + 10, RADIOBUTTON_WIDTH, RADIOBUTTON_HEIGHT);
-		bishop.setText("Bishop");
-		window.add(bishop);
+		JRadioButton radioBtnBishop = new JRadioButton();
+		radioBtnBishop.setVisible(true);
+		radioBtnBishop.setBounds(10 + RADIOBUTTON_WIDTH*3 + 30, LABEL_Y + LABEL_HEIGHT + 10, RADIOBUTTON_WIDTH, RADIOBUTTON_HEIGHT);
+		radioBtnBishop.setText("Bishop");
+		window.add(radioBtnBishop);
 		
 		ButtonGroup G = new ButtonGroup();
-		G.add(queen);
-		G.add(rook);
-		G.add(knight);
-		G.add(bishop);
+		G.add(radioBtnQueen);
+		G.add(radioBtnRook);
+		G.add(radioBtnKnight);
+		G.add(radioBtnBishop);
 	}
 
 }
