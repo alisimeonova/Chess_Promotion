@@ -1,6 +1,7 @@
 package gui;
 
 import javax.swing.ButtonGroup;
+import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JRadioButton;
@@ -57,6 +58,13 @@ public class PromotionGUI
 		G.add(radioBtnRook);
 		G.add(radioBtnKnight);
 		G.add(radioBtnBishop);
+		
+		JButton btnChoose = new JButton();
+		btnChoose.setVisible(true);
+		btnChoose.setBounds(170, 10 + LABEL_HEIGHT + 10 + RADIOBUTTON_HEIGHT + 10,  50, 30);
+		btnChoose.setText("Choose");
+		window.add(btnChoose);
+		
 	}
 
 }
